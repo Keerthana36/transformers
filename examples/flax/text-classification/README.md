@@ -47,7 +47,7 @@ where task name can be one of cola, mnli, mnli_mismatched, mnli_matched, mrpc, q
 Using the command above, the script will train for 3 epochs and run eval after each epoch. 
 Metrics and hyperparameters are stored in Tensorflow event files in `--output_dir`.
 You can see the results by running `tensorboard` in that directory:
-
+-- added the remote code control
 ```bash
 $ tensorboard --logdir .
 ```
